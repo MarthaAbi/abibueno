@@ -1,5 +1,5 @@
 import axios from 'axios';
-const url = 'https://abi-2.onrender.com/' 
+const url = 'https://abi-2.onrender.com/people' 
 // const url ='http://localhost:8080/people' 
 const instance = axios.create({ baseURL: url});
 
