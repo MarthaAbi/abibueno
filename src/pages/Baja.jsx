@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { deletePerson} from '../Service/api';
+import { deletePerson} from '../service/api';
 const Baja = () => {
     const [id, setId] = useState('');
 
