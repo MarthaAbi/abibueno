@@ -1,5 +1,8 @@
 import axios from 'axios';
-const instance = axios.create({ baseURL: 'http://localhost:8080/people' });
+const url = 'https://abi-2.onrender.com/' 
+// const url ='http://localhost:8080/people' 
+const instance = axios.create({ baseURL: url});
+
 
 export const savePersonName = async (obj) => await instance.post('/', obj)
 
