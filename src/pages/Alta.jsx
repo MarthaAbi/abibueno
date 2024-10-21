@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import {savePersonName } from '../Service/api';
+import {savePersonName } from '../service/api';
 
 const Alta = () => {
     const [nameState, setNameState] = useState('');

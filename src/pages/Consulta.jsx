@@ -1,5 +1,5 @@
 import {useEffect, useState } from 'react';
-import {getPersons} from '../Service/api';
+import {getPersons} from '../service/api';
 
 const Consulta = () => {
         const [consultaState, setConsultaState] = useState();
